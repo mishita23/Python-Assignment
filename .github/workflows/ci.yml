@@ -34,7 +34,7 @@ jobs:
       - name: Run Pytest
         run: |
           source venv/bin/activate
-          pytest --headless --html=reports/report.html --self-contained-html --maxfail=1 --disable-warnings -v
+          pytest --html=reports/report.html --self-contained-html --maxfail=1 --disable-warnings -v
 
       - name: Upload test report
         if: always()

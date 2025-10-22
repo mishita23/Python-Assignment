@@ -2,4 +2,3 @@ playwright
 pytest
 pytest-html
 pytest-rerunfailures
-pandas==2.1.0

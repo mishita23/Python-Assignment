@@ -1,0 +1,12 @@
+{
+    "base_url": "https://www.saucedemo.com/",
+    "valid_user": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "invalid_user": {
+        "username": "locked_out_user",
+        "password": "secret_sauce"
+    },
+    "screenshots_dir": "reports/screenshots"
+}
